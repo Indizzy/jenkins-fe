@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+   frontend:
+      build: .
+      container_name: front
+      image: literature:1.1
+      stdin_open: true
+      ports:
+        - 3000:3000
